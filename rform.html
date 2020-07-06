@@ -1,0 +1,110 @@
+<html>
+	<head>
+		<title> Regestration </title>
+		<br>
+		<br>
+		<br>
+		<h1><center> Regestration </center></h1>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<link rel="stylesheet" href="css/bootstrap.min.css">
+		<script language="javascript">
+		function bh()
+		{
+			var a=document.getElementById("pa").value;
+			var b=document.getElementById("rpa").value;
+			var c=document.getElementById("ph").value;
+			if(a == b)
+			{
+				alert("Not mach password ")
+			
+			}
+		}
+		</script>
+	</head>
+	<body background="p6.jpg">
+	<br>
+	<center>
+		<form>
+			<table>
+				<tr>
+					<td>First Name:</td>
+				</tr>
+				<tr>
+					<td><input type="text" name="txtname" placeholder="Enter your Name"></td>
+				</tr>
+				
+				<tr>
+					<td>
+					<td>
+				</tr>
+				
+				<tr>
+					<td>Last Name:</td>
+				</tr>
+				<tr>
+					<td><input type="text" name="txtname" placeholder="Enter your Name"></td>
+				</tr>
+				
+				<tr>
+					<td>
+					<td>
+				</tr>
+				
+				<tr>
+					<td>Ph.no :</td>
+				</tr>
+				<tr>
+					<td><input type="tel" name="phone" id="ph" pattern="[0-9]{10}" required placeholder="Enter your Phone"></td>
+				</tr>
+				
+				<tr>
+					<td>
+					<td>
+				</tr>
+				
+				<tr>
+					<td>Email : </td>
+				</tr>
+				<tr>
+				<td><input type="email" name="email" placeholder="Enter your Email"></td>
+				</tr>
+				<tr>
+					<td>
+					<td>
+				</tr>
+				<tr>
+					<td>Password : </td>
+				</tr>
+				<tr>
+					<td><input type="password" id="pa" placeholder="Enter your password"></td>
+				</tr>
+					<td>
+					<td>
+				<tr>
+				
+				</tr>
+				
+				<tr>
+					<td> Re-Enter Password : </td>
+				</tr>
+				<tr>
+					<td><input type="password" id="rpa"  placeholder="Re-Enter your password"></td>
+				</tr>
+				
+				<tr>
+					<td>
+					<td>
+				</tr>
+				
+				<tr>
+					<td><button type="button" class="btn btn-outline-success" onClick="bh()">Submit</button> &nbsp &nbsp								
+				<button type="button" class="btn btn-outline-danger">cencal</button></td>	
+				</tr>
+				</table>
+		</form>
+	
+	</center>
+	</body>
+
+</html>

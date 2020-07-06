@@ -1,0 +1,49 @@
+.main
+{
+	text-align:center;
+	    
+}
+.tital
+{
+	animation-name:moveInright;
+    animation-duration:5s;
+}
+/*@keyframes moveInleft
+{
+	0%
+	{
+		opacity:0;
+		transform:translatex(-100px);
+		
+	}
+	
+	100%
+	{
+			opacity:1;
+			transform:translate(0);
+		
+	}
+}*/
+@keyframes moveInleft
+{
+    0%
+    {
+            opacity:0;
+            transform:translatex(-100px);
+    }
+    /*10%
+    {
+        transform:rotate(180deg);
+    }*/
+    80%
+    {
+        transform:translatex(20px);
+
+
+    }
+    100%
+    {
+        opacity:1;
+        transform:translate(0);
+    }
+}
